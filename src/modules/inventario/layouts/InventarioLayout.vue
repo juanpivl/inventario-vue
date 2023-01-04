@@ -1,7 +1,7 @@
 <template>
   <NavBar />
   <div class="d-flex">
-    <div class="col-2">
+    <div class="col-1">
       <NavLateral />
     </div>
     <div class="col">
