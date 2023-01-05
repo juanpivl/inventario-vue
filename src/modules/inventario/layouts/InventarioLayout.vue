@@ -1,9 +1,6 @@
 <template>
   <NavBar />
-  <div class="d-flex back" >
-    <div class="col-1">
-      <NavLateral />
-    </div>
+  <div class="d-flex back">
     <div class="col">
       <router-view></router-view>
     </div>
@@ -11,23 +8,19 @@
 </template>
 
 <script>
-
-
 import { defineAsyncComponent } from "vue";
 export default {
   components: {
-    NavBar: defineAsyncComponent(()=> import('../components/NavBar.vue')),
-    NavLateral: defineAsyncComponent(() => import('../components/NavLateral.vue'))
+    NavBar: defineAsyncComponent(() => import("../components/NavBar.vue")),
   },
 };
 </script>
 
 <style scoped>
-  .back {
-    height: 100vh;
-    background-color: aqua;
-    text-align: center;
-  }
-
+.back {
+  height: 100vh;
+  background-color: whitesmoke;
+  text-align: center;
+}
 </style>
 
