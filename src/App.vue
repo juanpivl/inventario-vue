@@ -13,19 +13,20 @@
 
 
 
-<style >
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
   
 }
-
 .back{
-  background-color: white;
+ 
   height: 100vh;
+  background-image: url('./assets/back.jpg');
+  background-size: cover;
 }
 
 

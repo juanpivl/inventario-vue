@@ -1,6 +1,6 @@
 <template>
   <NavBar />
-  <div class="d-flex">
+  <div class="d-flex back" >
     <div class="col-1">
       <NavLateral />
     </div>
@@ -22,5 +22,12 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+  .back {
+    height: 100vh;
+    background-color: aqua;
+    text-align: center;
+  }
+
 </style>
+
